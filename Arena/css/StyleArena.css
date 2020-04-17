@@ -7,8 +7,6 @@
 */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
-a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
 #search {
     color: rgb(128, 128, 128);
     width: 150%;
@@ -72,9 +70,11 @@ a, a:hover, a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #fff;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%);
     border: none;
     border-radius: 0;
+    color: #fff;
     margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -107,7 +107,8 @@ i, span {
     width: 100%;
     min-width: 120px;
     max-width: 120px;
-    background: rgb(190, 0, 0);
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%);
     color: #fff;
     transition: all 0.3s;
 }
@@ -201,6 +202,7 @@ i, span {
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
     background: #BF0010;
+    background: linear-gradient(90deg, rgba(56,0,4,0.938813025210084) 0%, rgba(255,0,0,0.9836309523809523) 89%, rgba(36,0,11,0.6334908963585435) 100%);
 }
 
 
@@ -225,6 +227,7 @@ ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background: #BF0010;
+    background: linear-gradient(90deg, rgba(56,0,4,0.938813025210084) 0%, rgba(255,0,0,0.9836309523809523) 89%, rgba(36,0,11,0.6334908963585435) 100%);
 }
 
 ul.CTAs {
@@ -358,6 +361,8 @@ p{
 }
 #side-bar{
   margin-top: 15px;
+  background: rgb(255,0,0);
+  background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%);
 }
 /* Footer */
 .footer{
