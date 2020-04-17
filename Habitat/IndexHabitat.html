@@ -9,7 +9,7 @@
 </head>
 <body>
         <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #BF0010; color: antiquewhite;">
-            <a class="navbar-brand" href="#">AMIGOTCHI</a>
+            <a class="navbar-brand" href="file:///C:/Users/Less/Desktop/AMIGOTCHI/Principal/index.html">AMIGOTCHI</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuport"
                     aria-controls="navbarSuport" aria-expanded="false" aria-label="Toggle navigation" >
                         <span class="navbar-toggler-icon"></span>
@@ -23,10 +23,10 @@
                 <div class="collapse navbar-collapse" id="navbarSuport">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-value="signUp" id="signUp">Registrarse</a>
+                            <a class="nav-link" href="#" data-value="signUp" id="signUp" data-toggle="modal" data-target="#exampleModalCenter2">Registrarse</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter" data-value="logIn" id="logOn">Entrar</a>
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter" data-value="logIn" id="logOn">Ingresar</a>
                         </li>
                     </ul>
                 </div>
@@ -377,25 +377,113 @@
 
     <footer class="footer  text-white text-center">
         2020. Derechos Reservados &copy; AMIGOTCHIS es una propiedad intelectual de GRUPO AMIGOTCHIS INC.
+        <a href="" class="link-maright">Advertising <br></a>
+        <a href="" class="link-maright">About <br></a>
+        <a href="" class="link-maright">Contact <br></a>
     </footer>
 
-    <div class="modal fade" id="successForm" tabindex="-1" role="dialog" >
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">¡Exito!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <h5 class="modal-text">¡Se han enviado los datos con exito!</h5>
-                </div>
+    <!-- Modales -->
 
-            </div>
-        </div>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalCenterTitle">Entrar</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Cuenta</label>
+      <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+      <small id="emailHelp" class="form-text text-muted">Ingresa el nombre de tu Cuenta AMIGOTCHI.</small>
     </div>
-
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Permanecer Conectado</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Entrar</button>
+  </form>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalCenterTitle">Registrate</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+    <small id="emailHelp" class="form-text text-muted">No lo Compartiremos con nadie.</small>
+</div>
+<div class="form-group">
+    <label for="exampleInputcuenta1">Cuenta</label>
+    <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+    <small id="emailHelp" class="form-text text-muted">Ingresa el nombre de tu cuenta AMIGOTCHI.</small>
+</div>
+<div class="form-group">
+    <label for="exampleInputCuenta2">Nick</label>
+    <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+    <small id="emailHelp" class="form-text text-muted">Ingresa el Nickname con el que podran encontrarte tus amigos.</small>
+  </div>
+  <div class="form-group">
+  <label for="exampleInputPassword1">Password</label>
+  <input type="password" class="form-control" id="exampleInputPassword1">
+</div>
+<div class="form-group">
+    <label for="exampleInputPassword1">Repite Tu Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputCuenta2">Nombre Completo</label>
+    <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+    <small id="emailHelp" class="form-text text-muted">Solo se mostrara tu Nickname en tu perfil.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputCuenta2">Tarjeta de Credito/Debito</label>
+    <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+    <small id="emailHelp" class="form-text text-muted">Los 16 Numeros de tu Tarjeta.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputCuenta2">Fecha de Vencimiento</label>
+    <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+    <small id="emailHelp" class="form-text text-muted">La Fecha en la que vence tu tarjeta.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputCuenta2">CVV</label>
+    <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+    <small id="emailHelp" class="form-text text-muted">Digita los 3 números de seguridad de tu Tarjeta.</small>
+  </div>
+<div class="form-group form-check">
+  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+  <label class="form-check-label" for="exampleCheck1">Permanecer Conectado</label>
+</div>
+<button type="submit" class="btn btn-primary">Registrarse</button>
+</form>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+      <!-- Modales -->
 
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

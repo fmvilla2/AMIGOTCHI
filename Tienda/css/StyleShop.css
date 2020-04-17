@@ -94,7 +94,7 @@ a{
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 #search {
     color: rgb(128, 128, 128);
-    width: 150%;
+    width: 243%;
     padding: 1px 5px;
     border-radius: 20px;
     font-size: 13px;
@@ -112,6 +112,12 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
 }
+body{
+  background-image: url('../Images/background01.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
@@ -126,7 +132,8 @@ a, a:hover, a:focus {
 }
 .navbar {
     padding: 15px 10px;
-    background: #fff;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%);
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -146,6 +153,10 @@ a, a:hover, a:focus {
 i, span {
     display: inline-block;
 }
+.store .card{
+  border-color: rgb(12, 12, 13);
+  margin: 3px;
+}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -157,7 +168,8 @@ i, span {
     width: 100%;
     min-width: 120px;
     max-width: 120px;
-    background: #BF0010;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%);
     color: #fff;
     transition: all 0.3s;
 }
@@ -351,6 +363,8 @@ color: white;
 }
 #side-bar{
   margin-top: 15px;
+  background: rgb(255,0,0);
+  background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%);
 }
 
 

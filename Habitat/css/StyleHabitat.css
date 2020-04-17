@@ -7,7 +7,7 @@
     padding: 1px 5px;
     border-radius: 20px;
     font-size: 13px;
-    border: 1px ; 
+    border: 1px ;
     color: grey;
     margin-left: 30px;
   }
@@ -27,6 +27,11 @@ html,body{
     /* background-size: cover; */
     background-position: center;
 }
+body{
+  background-image: url('../Images/background01.jpg');
+  height: 100%;
+  background-size: cover;
+}
 
 a, a:hover, a:focus {
     color: inherit;
@@ -36,7 +41,8 @@ a, a:hover, a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: linear-gradient(90deg, rgba(204,18,18,1) 43%, rgba(227,159,159,1) 52%, rgba(177,17,30,1) 65%);
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%);
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -68,7 +74,8 @@ i, span {
 #sidebar {
     min-width: 120px;
     max-width: 120px;
-    background: linear-gradient(90deg, rgba(204,18,18,1) 82%, rgba(227,159,159,1) 89%, rgba(116,6,15,1) 96%);
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%);
     color: #fff;
     transition: all 0.3s;
     margin-top: 10px;
@@ -133,7 +140,8 @@ i, span {
 
 #sidebar .sidebar-header {
     padding: 0px;
-    background: linear-gradient(90deg, rgba(204,18,18,1) 82%, rgba(227,159,159,1) 89%, rgba(116,6,15,1) 96%);
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%);
 }
 
 #sidebar .sidebar-header strong {
