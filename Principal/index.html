@@ -8,35 +8,38 @@
     <title>Document</title>
 </head>
 <body>
-                <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #BF0010; color: antiquewhite;">
-                <a class="navbar-brand" href="#">AMIGOTCHI</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuport"
-                        aria-controls="navbarSuport" aria-expanded="false" aria-label="Toggle navigation" >
-                            <span class="navbar-toggler-icon"></span>
-                    </button>
-                        <div class="collapse navbar-collapse" id="search_bar" class="center-block search-block-gp">
-                        <div id="search_mini_form" class="search_mini_form-gp" style="display: block">
-                            <input id="search" class="input-text form-search-gp" type="text" name=""  value="" max="100"  placeholder="Buscar en AMIGOTCHI">
-                        </div>
-                        </div>
+                <!-- Barras de Paginas -->
 
-                        <div class="collapse navbar-collapse" id="navbarSuport">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" data-value="signUp" id="signUp">Registrarse</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter" data-value="logIn" id="logOn">Entrar</a>
-                                </li>
-                            </ul>    
-                        </div>
-                </nav>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#">AMIGOTCHI</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuport"
+            aria-controls="navbarSuport" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="search_bar" class="center-block search-block-gp">
+              <div id="search_mini_form" class="search_mini_form-gp" style="display: block">
+                   <input id="search" class="input-text form-search-gp" type="text" name=""  value="" max="100"  placeholder="Buscar en AMIGOTCHI">
+              </div>
+            </div>
+        <div class="collapse navbar-collapse" id="navbarSuport">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-value="signUp" id="signUp" data-toggle="modal" data-target="#exampleModalCenter2">Crear una Cuenta</a>
 
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter" data-value="logIn" id="logOn">Entrar</a>
+                </li>
+        </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
             <div class="wrapper" id="sideBar" >
-                <!-- Sidebar Holder -->
                 <nav id="sidebar" class="position-fixed" style="height: 100%;">
-                    <div class="sidebar-header">
-                      <a class="nav-link d-flex flex-column align-items-center justify-content-center" id="side-bar" href="index.html" role="tab" aria-controls="v-pills-home" aria-selected="true" style="border: 1px solid rgba(0, 0, 0, 0.5);">
+                    <ul class="list-unstyled components">
+                        <a class="nav-link d-flex flex-column align-items-center justify-content-center" id="side-bar" href="index.html" role="tab" aria-controls="v-pills-home" aria-selected="true" style="border: 1px solid rgba(0, 0, 0, 0.5);">
                         <svg class="svg-icon-1" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280.000000 1206.000000"><g transform="translate(0.000000,1206.000000) scale(0.100000,-0.100000)" stroke="none">
                         <path d="M5828 11600 c-282 -250 -1418 -1256 -2523 -2235 -1106 -978 -2165
                         -1917 -2355 -2085 -190 -168 -460 -407 -600 -530 -140 -124 -276 -245 -302
@@ -51,9 +54,6 @@
                         5 1322 -60 52 -46 81 -97 93 -163 8 -40 11 -454 11 -1292 l0 -1233 1484 2
                         1485 3 30 29 c17 16 45 63 63 105 l33 76 2 2860 2 2860 -2240 1975 c-1270
                         1120 -2249 1976 -2260 1976 -13 1 -247 -200 -682 -585z"/></g></svg>HOME</a>
-                    </div>
-
-                    <ul class="list-unstyled components">
                       <a class="nav-link d-flex flex-column align-items-center justify-content-center" href="../Tienda/IndexStore.html" role="tab" aria-controls="v-pills-store" aria-selected="false" style="border: 1px solid rgba(0, 0, 0, 0.5);">
                         <svg class="svg-icon-2" version="1.0" xmlns="http://www.w3.org/2000/svg"viewBox="0 0 1033.000000 1280.000000"><g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" stroke="none">
                         <path d="M4941 12789 c-512 -54 -1019 -309 -1401 -705 -455 -472 -726 -1085
@@ -150,8 +150,10 @@
                             m-990 -731 c0 -2 -7 -7 -16 -10 -8 -3 -12 -2 -9 4 6 10 25 14 25 6z"/>
                             </g></svg>ARENA</a>
                 </nav>
+                                <!-- Barras de Paginas -->
 
-            </div>
+
+                            </div>
                         </div>
                     </nav>
                     <div style="padding: 80px 0px 0px 200px;">
@@ -227,13 +229,13 @@
                         </section>
                     <div class="line"></div>
 
-                    <h2>Aqui ponemos informacion emocinante</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2>Oferta del Mes</h2>
+                    <p>Compra un Grupo de 3 Mascotas y llevate 2 Habitats Gratis</p>
 
                     <div class="line"></div>
 
-                    <h2>Aqui unas bootstrap cards bien mamalonas</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2>No esperes mas </h2>
+                    <p>Nuestras Mascotas Llevan mucho tiempo esperando por ti, desde los lugares mas Asombrosos hasta los mas Reconditos</p>
 
                     <div class="line"></div>
 
@@ -242,6 +244,17 @@
                   </div>
                 </div>
             </div>
+            
+                            <!-- Modales y footer -->
+            <footer class="footer  text-white text-center">
+                2020. Derechos Reservados &copy; AMIGOTCHIS es una propiedad intelectual de GRUPO AMIGOTCHIS INC. <br>
+                <a href="" class="link-maright">Advertising <br></a>
+                <a href="" class="link-maright">About <br></a>
+                <a href="" class="link-maright">Contact <br></a>
+            </footer>
+
+                            <!-- Modales -->
+
             <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
@@ -275,6 +288,74 @@
                   </div>
                 </div>
               </div>
+              <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">Registrate</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+                            <small id="emailHelp" class="form-text text-muted">No lo Compartiremos con nadiea.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputcuenta1">Cuenta</label>
+                            <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+                            <small id="emailHelp" class="form-text text-muted">La cuenta Para ingreso a Amigotch.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputCuenta2">Nick</label>
+                            <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+                            <small id="emailHelp" class="form-text text-muted">El Nick Con el que te Reconoceran tus Amigos.</small>
+                          </div>
+                          <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Repite Tu Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputCuenta2">Nombre Completo</label>
+                            <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+                            <small id="emailHelp" class="form-text text-muted">Solo se mostrara tu nombre Inicial.</small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputCuenta2">Tarjeta de Credito/Debito</label>
+                            <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+                            <small id="emailHelp" class="form-text text-muted">Los 16 Numeros de tu Tarjeta.</small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputCuenta2">Fecha de Vencimiento</label>
+                            <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+                            <small id="emailHelp" class="form-text text-muted">La Fecha en la que vence tu tarjeta.</small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputCuenta2">Numeros de Seguridad</label>
+                            <input type="Account" class="form-control" id="exampleInputAccount" aria-describedby="accountHelp">
+                            <small id="emailHelp" class="form-text text-muted">Los tres Numeros detras de tu Tarjeta.</small>
+                          </div>
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Permanecer Conectado</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Registrarse</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                              <!-- Modales -->
+
     </html>
 
 </body>
