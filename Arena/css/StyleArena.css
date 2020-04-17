@@ -30,18 +30,21 @@
   margin: none;
   width: 550px;
 }
+.blog #h_2{
+  width:
+}
 .blog h2{
    background-color: rgb(190, 0, 0);
    padding: 25px;
    margin: none;
-   width: auto;
+   width: inherit;
 }
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
 }
 body{
-   background-image: url('../images/island.jpg');
+   background-image: url('../images/island2.jpg');
    height: 100%;
    background-size: cover;
    background-position: center;
