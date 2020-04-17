@@ -38,7 +38,7 @@ a{
 }
 
 .ok{
-    background-color: #bf0010; 
+    background-color: #bf0010;
 }
 
 .largo{
@@ -61,7 +61,7 @@ a{
 }
 
 .card-footer{
-    background: #bf0010;   
+    background: #bf0010;
 }
 
 .card{
@@ -349,4 +349,13 @@ color: white;
 
 .con1{
     max-width: 1000px;
+}
+/* Footer */
+.footer{
+    width: 100%;
+    margin-top: 4rem;
+    position: relative;
+    /* background-image: url("../images/background01.jpg"); */
+    background-color: rgb(26, 24, 24);
+    padding: 1rem;
 }
