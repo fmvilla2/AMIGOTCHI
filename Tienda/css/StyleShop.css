@@ -53,7 +53,9 @@ a{
 }
 
 .img-2 img{
-    width: 350px;
+    height: 300px;
+    width: 300px;
+
 }
 
 .card-link-1{
@@ -66,8 +68,9 @@ a{
 
 .card{
     border: none;
+    padding: 25px;
 }
-
+/*
 .cardtext{
     position: absolute;
     bottom: 25px;
@@ -75,7 +78,11 @@ a{
     width: 100%;
     text-align: center;
 }
-
+*/
+.storetext{
+    margin-top: 100px;
+    margin-bottom: 100px
+}
 
 
 
