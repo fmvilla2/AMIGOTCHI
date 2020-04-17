@@ -28,11 +28,15 @@
   background-color: rgb(190, 0, 0);
   padding: 25px;
   width: 550px;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%)
 }
 .blog #h_2{
   width: 550px;
   margin-left: 382px;
   background-color: rgb(190, 0, 0);
+  background: rgb(255,0,0);
+  background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%)
 }
 .blog #h2_1{
   padding: 25px;
@@ -40,8 +44,10 @@
   width: 600px;
 }
 .blog h2{
-   background-color: rgb(190, 0, 0);
+   background-color: rgb(0, 0, 0);
    padding: 25px;
+   background: rgb(255,0,0);
+   background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%)
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -171,10 +177,6 @@ i, span {
     transform: translateX(50%);
 }
 
-#sidebar .sidebar-header {
-    padding: 0px;
-    background: #BF0010;
-}
 
 #sidebar .sidebar-header strong {
     display: none;
@@ -182,8 +184,7 @@ i, span {
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    padding: 0px 0;
 }
 
 #sidebar ul li a {
@@ -201,7 +202,7 @@ i, span {
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #BF0010;
+    background: rgb(255,0,0);
     background: linear-gradient(90deg, rgba(56,0,4,0.938813025210084) 0%, rgba(255,0,0,0.9836309523809523) 89%, rgba(36,0,11,0.6334908963585435) 100%);
 }
 

@@ -218,17 +218,13 @@ i, span {
     -ms-transform: translateX(50%);
     transform: translateX(50%);
 }
-#sidebar .sidebar-header {
-    padding: 0px;
-    background: #BF0010;
-}
+
 #sidebar .sidebar-header strong {
     display: none;
     font-size: 1.8em;
 }
 #sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    padding: 0px 0;
 }
 #sidebar ul li a {
     padding: 10px;
@@ -244,7 +240,8 @@ i, span {
 }
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #BF0010;
+    background: rgb(255,0,0);
+background: radial-gradient(circle, rgba(255,0,0,0.9836309523809523) 0%, rgba(56,0,4,1) 55%, rgba(36,0,11,0.9164040616246498) 100%);
 }
 a[data-toggle="collapse"] {
     position: relative;

@@ -272,7 +272,12 @@ fill: white;
         display: none;
     }
 }
-
+#h2_{
+  padding: 25px;
+  width: 350px;
+  background: rgb(56,0,4);
+  background: linear-gradient(90deg, rgba(56,0,4,0.938813025210084) 0%, rgba(255,0,0,0.9836309523809523) 89%, rgba(36,0,11,0.6334908963585435) 100%);
+}
 .footer{
     width: 100%;
     margin-top: 4rem;
