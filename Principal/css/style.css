@@ -13,7 +13,7 @@
     padding: 1px 5px;
     border-radius: 20px;
     font-size: 13px;
-    border: 1px ; 
+    border: 1px ;
     color: grey;
     margin-left: 30px;
   }
@@ -78,6 +78,7 @@ i, span {
 }
 
 #sidebar {
+    width: 100%;
     min-width: 120px;
     max-width: 120px;
     background: #BF0010;
@@ -223,16 +224,24 @@ a.article, a.article:hover {
 }
 .svg-icon-1{
 width: 60px;
+fill:white;
+color: white;
 }
 
 .svg-icon-2{
     width: 45px;
+    fill:white;
+    color: white;
 }
 .svg-icon-3{
     width: 60px;
+    fill:white;
+    color: white;
 }
 .svg-icon-4{
     width: 80px;
+    fill:white;
+    color: white;
 }
 
 
@@ -302,4 +311,8 @@ width: 60px;
     #sidebarCollapse span {
         display: none;
     }
+}
+
+#side-bar{
+  margin-top: 15px;
 }
